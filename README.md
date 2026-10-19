@@ -1,129 +1,143 @@
-<!-- ============================================================
-     GitHub Profile README — Denis Boshnjaku
-     Replace every "DenisBoshnjaku" below with your exact GitHub
-     username (case-sensitive) so the stats cards load correctly.
-     ============================================================ -->
-
-<h1 align="center">Hi 👋, I'm Denis Boshnjaku</h1>
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  Denis Boshnjaku — GitHub profile README                     ║
+  ║  If your GitHub username is not "DenisBoshnjaku", find &     ║
+  ║  replace it below (case-sensitive) so the live cards load.   ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Developer;React+%E2%80%A2+Java+%E2%80%A2+.NET+%E2%80%A2+PHP;Building+clean%2C+scalable+web+apps;Always+learning+something+new+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="./assets/header.svg" width="100%" alt="Denis Boshnjaku — Full-Stack Developer"/>
+</p>
+
+<p align="center">
+  <a href="mailto:denis.boshnjaku@kreatx.com"><img src="https://img.shields.io/badge/denis.boshnjaku@kreatx.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ff5fa2&labelColor=0d1117&color=161b22" alt="Email"/></a>
+  <a href="https://github.com/DenisBoshnjaku?tab=followers"><img src="https://img.shields.io/github/followers/DenisBoshnjaku?style=for-the-badge&logo=github&logoColor=36bcf7&label=Followers&labelColor=0d1117&color=161b22" alt="Followers"/></a>
+  <img src="https://komarev.com/ghpvc/?username=DenisBoshnjaku&label=VISITORS&color=a371f7&style=for-the-badge&labelColor=0d1117" alt="Visitors"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&multiline=false&width=700&lines=while(alive)+%7B+code()%3B+coffee()%3B+ship()%3B+%7D;Turning+ideas+into+React+UIs+and+rock-solid+APIs;Java+%E2%98%95+%E2%80%A2+C%23+%F0%9F%9F%A3+%E2%80%A2+PHP+%F0%9F%90%98+%E2%80%A2+React+%E2%9A%9B%EF%B8%8F;git+push+origin+main+--force+%F0%9F%98%85+(just+kidding)" alt="typing"/>
+</p>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="denis@kreatx neofetch"/>
+</p>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<h2 align="center">⚡ The Stack I Ship With</h2>
+
+<p align="center">
+  <img src="./assets/ticker.svg" width="100%" alt="Tech ticker"/>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,java,spring,cs,dotnet,php,laravel,mysql,postgres,docker,git,idea,visualstudio,postman&perline=8&theme=dark" alt="Skill icons"/>
+</p>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+```tsx
+// whoami.tsx
+const Denis = () => {
+  const [coffee, setCoffee] = useState(Infinity);
+
+  return (
+    <Developer
+      company="Kreatx"
+      frontend={["React", "TypeScript"]}
+      backend={["Java", ".NET", "PHP"]}
+      motto="Make it work, make it right,
+             make it fast."
+    />
+  );
+};
+```
+
+</td>
+<td width="50%" valign="top">
+
+```java
+// CurrentFocus.java
+@Service
+public class CurrentFocus {
+
+  List<String> building = List.of(
+    "Scalable full-stack web apps",
+    "Clean REST APIs (Spring / ASP.NET / Laravel)"
+  );
+
+  List<String> learning = List.of(
+    "Cloud & Docker", "System design"
+  );
+}
+```
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary align="center"><b>🔍 Open the full skill tree</b></summary>
+<br/>
+
+| ⚛️ Frontend | ☕ Java | 🟣 .NET | 🐘 PHP | 🗄️ Data & Tools |
+|:--|:--|:--|:--|:--|
+| React · Hooks | Java 17+ | C# | PHP 8 | MySQL |
+| Redux · Router | Spring Boot | ASP.NET Core | Laravel | PostgreSQL |
+| TypeScript | Spring Security | Web API · MVC | Eloquent ORM | SQL Server |
+| HTML5 · CSS3 | Hibernate / JPA | Entity Framework | Blade | Docker · Git |
+| Tailwind | Maven | LINQ | Composer | Postman · JWT |
+
+</details>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<h2 align="center">🏙️ My Contributions, in 3D</h2>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution city"/>
+</p>
+
+<h2 align="center">📈 Live Stats</h2>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=DenisBoshnjaku&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=36bcf7&icon_color=a371f7&text_color=c9d1d9&count_private=true&include_all_commits=true&rank_icon=github" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisBoshnjaku&layout=donut-vertical&hide_border=true&bg_color=0d1117&title_color=36bcf7&text_color=c9d1d9&langs_count=6" alt="langs"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=DenisBoshnjaku&hide_border=true&background=0d1117&ring=a371f7&fire=ff5fa2&currStreakLabel=36bcf7&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681&stroke=30363d" alt="streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DenisBoshnjaku&bg_color=0d1117&color=a371f7&line=36bcf7&point=ff5fa2&area=true&area_color=36bcf7&hide_border=true&custom_title=Commit%20heartbeat" width="100%" alt="activity graph"/>
+</p>
+
+<h2 align="center">🐍 Watch the Snake Eat My Commits</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DenisBoshnjaku/DenisBoshnjaku/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DenisBoshnjaku/DenisBoshnjaku/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/DenisBoshnjaku/DenisBoshnjaku/output/github-snake-dark.svg" width="100%" alt="contribution snake"/>
+  </picture>
+</p>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=false" alt="quote"/>
+</p>
+
+<p align="center">
+  <a href="mailto:denis.boshnjaku@kreatx.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=A371F7&center=true&vCenter=true&width=520&lines=Have+a+project+in+mind%3F+Let's+build+it+together.;%E2%9C%89+denis.boshnjaku%40kreatx.com" alt="contact"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/></a>
-  <img src="https://komarev.com/ghpvc/?username=DenisBoshnjaku&label=Profile%20views&color=36BCF7&style=for-the-badge" alt="Profile views"/>
-</p>
-
----
-
-## 🧑‍💻 About Me
-
-```java
-public class Denis {
-    String name      = "Denis Boshnjaku";
-    String role      = "Full-Stack Developer";
-    String[] frontend = { "React", "JavaScript", "TypeScript", "HTML", "CSS" };
-    String[] backend  = { "Java / Spring Boot", "C# / .NET", "PHP / Laravel" };
-    String[] databases = { "MySQL", "PostgreSQL", "SQL Server" };
-    String currentFocus = "Building scalable full-stack applications";
-    String funFact   = "I speak four backend languages and still debug with console.log 😄";
-}
-```
-
-- 🔭 I'm currently working on **full-stack web applications** with React front ends and Java / .NET / PHP back ends
-- 🌱 I'm currently learning **cloud deployment, Docker and system design**
-- 👯 I'm looking to collaborate on **open-source and web projects**
-- 💬 Ask me about **React, Spring Boot, ASP.NET Core, Laravel, REST APIs**
-- 📫 How to reach me: **your.email@example.com**
-- ⚡ Fun fact: I enjoy turning messy requirements into clean, working code
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind,bootstrap&perline=7" alt="Frontend" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=java,spring,cs,dotnet,php,laravel,nodejs&perline=7" alt="Backend" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,postman&perline=7" alt="Databases & Tools" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=idea,visualstudio,vscode,linux,azure,maven,figma&perline=7" alt="IDEs & Platforms" />
-</p>
-
-<details>
-<summary><b>📋 Detailed skills (click to expand)</b></summary>
-<br/>
-
-| Area | Technologies |
-|------|--------------|
-| **Frontend** | React, Redux, React Router, Hooks, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind, Bootstrap |
-| **Java** | Java 17+, Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Hibernate, Maven |
-| **.NET** | C#, ASP.NET Core Web API, MVC, Entity Framework Core, LINQ |
-| **PHP** | PHP 8, Laravel, Composer, Blade, Eloquent ORM |
-| **Databases** | MySQL, PostgreSQL, SQL Server, MongoDB |
-| **Tools** | Git, GitHub, Docker, Postman, IntelliJ IDEA, Visual Studio, VS Code |
-| **Concepts** | REST APIs, OOP, MVC, Clean Architecture, Authentication (JWT), Unit Testing |
-
-</details>
-
----
-
-## 🚀 Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🛒 [**Project One**](https://github.com/DenisBoshnjaku/project-one) | Full-stack e-commerce app with cart, auth and admin dashboard | React · Spring Boot · MySQL |
-| 📊 [**Project Two**](https://github.com/DenisBoshnjaku/project-two) | REST API for task / project management with JWT auth | ASP.NET Core · EF Core · SQL Server |
-| 📝 [**Project Three**](https://github.com/DenisBoshnjaku/project-three) | Content management / blog platform | PHP · Laravel · MySQL |
-| 🌐 [**Project Four**](https://github.com/DenisBoshnjaku/project-four) | Responsive portfolio website | React · Tailwind CSS |
-
-> 💡 Replace these with your real repos — or pin them on your profile.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DenisBoshnjaku&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisBoshnjaku&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=DenisBoshnjaku&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DenisBoshnjaku&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DenisBoshnjaku&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="Trophies" />
-</p>
-
----
-
-## 💭 Quote of the Day
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</p>
-
----
-
-<p align="center">
-  <i>⭐ Thanks for visiting! Feel free to explore my repositories and reach out. ⭐</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:7B61FF&height=100&section=footer" alt="footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36bcf7,50:a371f7,100:ff5fa2&height=120&section=footer&animation=twinkling" width="100%"/>
 </p>

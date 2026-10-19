@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="55%" stop-color="#111632"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36bcf7">
+        <animate attributeName="stop-color" values="#36bcf7;#a371f7;#ff5fa2;#36bcf7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a371f7">
+        <animate attributeName="stop-color" values="#a371f7;#ff5fa2;#36bcf7;#a371f7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#36bcf7" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#36bcf7" stop-opacity="0.18"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1f2a4a" stroke-width="0.6"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="1" y="1" width="898" height="258" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+    .sym  { fill: #36bcf7; font-size: 20px; opacity: 0; animation: rise 10s linear infinite; }
+    .sym.p { fill: #a371f7; }
+    .sym.k { fill: #ff5fa2; }
+    @keyframes rise {
+      0%   { transform: translateY(280px); opacity: 0; }
+      12%  { opacity: .45; }
+      85%  { opacity: .45; }
+      100% { transform: translateY(-40px); opacity: 0; }
+    }
+    .role { opacity: 0; animation: cycle 12s infinite; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(10px); }
+      4%   { opacity: 1; transform: translateY(0); }
+      21%  { opacity: 1; transform: translateY(0); }
+      25%  { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0; }
+    }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateY(-60px); } to { transform: translateY(270px); } }
+    .hi   { opacity: 0; animation: fade 1s .2s forwards; }
+    .name { opacity: 0; animation: pop 1.2s .6s cubic-bezier(.2,1.4,.4,1) forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pop  { 0% { opacity: 0; transform: scale(.85); } 100% { opacity: 1; transform: scale(1); } }
+    .name { transform-origin: 450px 118px; }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .glitch { opacity: 0; animation: glitch 7s 3s infinite; }
+    @keyframes glitch {
+      0%, 92%, 100% { opacity: 0; transform: translate(0,0); }
+      93% { opacity: .8; transform: translate(-4px, 1px); }
+      95% { opacity: .8; transform: translate(4px, -2px); }
+      97% { opacity: .6; transform: translate(-2px, 0); }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)" opacity=".55"/>
+
+    <!-- floating code symbols -->
+    <g class="mono">
+      <text class="sym"   x="40"  y="0" style="animation-delay:0s">{ }</text>
+      <text class="sym p" x="120" y="0" style="animation-delay:4s;animation-duration:12s">&lt;/&gt;</text>
+      <text class="sym k" x="210" y="0" style="animation-delay:7s">=&gt;</text>
+      <text class="sym"   x="690" y="0" style="animation-delay:2s;animation-duration:11s">@Bean</text>
+      <text class="sym p" x="780" y="0" style="animation-delay:5s">$php</text>
+      <text class="sym k" x="840" y="0" style="animation-delay:1s;animation-duration:13s">;</text>
+      <text class="sym"   x="610" y="0" style="animation-delay:8s;animation-duration:9s">async</text>
+      <text class="sym p" x="290" y="0" style="animation-delay:3s;animation-duration:14s">C#</text>
+      <text class="sym k" x="560" y="0" style="animation-delay:10s;animation-duration:12s">useState()</text>
+      <text class="sym"   x="70"  y="0" style="animation-delay:6s;animation-duration:15s">0101</text>
+    </g>
+
+    <!-- scanning beam -->
+    <rect class="scan" x="0" y="0" width="900" height="60" fill="url(#beam)"/>
+
+    <!-- text -->
+    <text class="mono hi" x="450" y="66" text-anchor="middle" font-size="18" fill="#8b949e">
+      &gt; hello_world, I'm<tspan class="cur" fill="#36bcf7">_</tspan>
+    </text>
+
+    <g class="mono" font-size="54" font-weight="700" text-anchor="middle">
+      <text class="glitch" x="450" y="134" fill="#ff5fa2">Denis Boshnjaku</text>
+      <text class="name" x="450" y="134" fill="url(#neon)" filter="url(#glow)">Denis Boshnjaku</text>
+    </g>
+
+    <g class="mono" font-size="20" text-anchor="middle" fill="#c9d1d9">
+      <text class="role"    x="450" y="186">⚛  React Front-End Engineer</text>
+      <text class="role r2" x="450" y="186">☕  Java · Spring Boot Developer</text>
+      <text class="role r3" x="450" y="186">🟣  C# · .NET Core Builder</text>
+      <text class="role r4" x="450" y="186">🐘  PHP · Laravel Craftsman</text>
+    </g>
+
+    <text class="mono hi" x="450" y="228" text-anchor="middle" font-size="14" fill="#6e7681" style="animation-delay:1.4s">
+      Software Developer @ Kreatx  ·  full-stack  ·  clean code  ·  coffee-driven
+    </text>
+  </g>
+
+  <!-- running neon border -->
+  <rect x="1" y="1" width="898" height="258" rx="18" fill="none" stroke="#1f2a4a" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="258" rx="18" fill="none" stroke="url(#neon)" stroke-width="3"
+        stroke-dasharray="260 2010" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-2270" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

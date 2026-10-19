@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36bcf7"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+    <clipPath id="type1"><rect x="172" y="62" width="0" height="26">
+      <animate attributeName="width" from="0" to="80" begin="0.5s" dur="0.9s" fill="freeze" calcMode="discrete"
+               values="0;10;19;28;37;46;55;64;80" keyTimes="0;.12;.25;.37;.5;.62;.75;.87;1"/>
+    </rect></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <style>
+    .m { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 15px; }
+    .ln { opacity: 0; animation: in .35s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    .k  { fill: #36bcf7; font-weight: 700; }
+    .v  { fill: #c9d1d9; }
+    .dim{ fill: #6e7681; }
+    .g  { fill: #3fb950; }
+    .p  { fill: #a371f7; }
+    .pk { fill: #ff5fa2; }
+    .y  { fill: #e3b341; }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .logo { fill: url(#neon); }
+    .bar { animation: fill 2.2s 3.6s ease-out forwards; transform: scaleX(0); transform-origin: 0 0; transform-box: fill-box; }
+    @keyframes fill { to { transform: scaleX(1); } }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="898" height="438" rx="14" fill="#0b0f1a" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="38" rx="14" fill="#161b22"/>
+  <rect x="1" y="26" width="898" height="13" fill="#161b22"/>
+  <circle cx="26" cy="20" r="7" fill="#ff5f57"/>
+  <circle cx="50" cy="20" r="7" fill="#febc2e"/>
+  <circle cx="74" cy="20" r="7" fill="#28c840"/>
+  <text class="m dim" x="450" y="25" text-anchor="middle" font-size="13">denis@kreatx: ~ — zsh</text>
+
+  <!-- command -->
+  <text class="m" x="24" y="80" xml:space="preserve"><tspan class="g">denis@kreatx</tspan><tspan class="v">:</tspan><tspan class="k">~</tspan><tspan class="v">$ </tspan></text>
+  <text class="m v" x="172" y="80" clip-path="url(#type1)">neofetch</text>
+
+  <!-- ascii logo -->
+  <g class="m logo" font-size="17" filter="url(#glow)" xml:space="preserve">
+    <text class="ln" x="34" y="132" style="animation-delay:1.5s"> ██████╗  ██████╗ </text>
+    <text class="ln" x="34" y="154" style="animation-delay:1.6s"> ██╔══██╗ ██╔══██╗</text>
+    <text class="ln" x="34" y="176" style="animation-delay:1.7s"> ██║  ██║ ██████╔╝</text>
+    <text class="ln" x="34" y="198" style="animation-delay:1.8s"> ██║  ██║ ██╔══██╗</text>
+    <text class="ln" x="34" y="220" style="animation-delay:1.9s"> ██████╔╝ ██████╔╝</text>
+    <text class="ln" x="34" y="242" style="animation-delay:2.0s"> ╚═════╝  ╚═════╝ </text>
+  </g>
+  <text class="m dim ln" x="58" y="282" font-size="13" style="animation-delay:2.1s">// full-stack · since day one</text>
+
+  <!-- info -->
+  <g class="m" xml:space="preserve">
+    <text class="ln" x="330" y="122" style="animation-delay:2.0s"><tspan class="g" font-weight="700">denis</tspan><tspan class="v">@</tspan><tspan class="g" font-weight="700">kreatx</tspan></text>
+    <text class="ln dim" x="330" y="142" style="animation-delay:2.1s">───────────────────────────────────────────</text>
+    <text class="ln" x="330" y="164" style="animation-delay:2.25s"><tspan class="k">Name</tspan><tspan x="440" class="v">Denis Boshnjaku</tspan></text>
+    <text class="ln" x="330" y="186" style="animation-delay:2.4s"><tspan class="k">Role</tspan><tspan x="440" class="v">Software Developer @ </tspan><tspan class="pk">Kreatx</tspan></text>
+    <text class="ln" x="330" y="208" style="animation-delay:2.55s"><tspan class="k">Frontend</tspan><tspan x="440" class="v">React · TypeScript · JavaScript</tspan></text>
+    <text class="ln" x="330" y="230" style="animation-delay:2.7s"><tspan class="k">Backend</tspan><tspan x="440" class="y">Java</tspan><tspan class="v"> (Spring) · </tspan><tspan class="p">C#</tspan><tspan class="v"> (.NET) · </tspan><tspan class="pk">PHP</tspan><tspan class="v"> (Laravel)</tspan></text>
+    <text class="ln" x="330" y="252" style="animation-delay:2.85s"><tspan class="k">Database</tspan><tspan x="440" class="v">MySQL · PostgreSQL · SQL Server</tspan></text>
+    <text class="ln" x="330" y="274" style="animation-delay:3.0s"><tspan class="k">Tools</tspan><tspan x="440" class="v">Git · Docker · Postman · IntelliJ · VS</tspan></text>
+    <text class="ln" x="330" y="296" style="animation-delay:3.15s"><tspan class="k">Shell</tspan><tspan x="440" class="v">REST APIs · Clean Architecture · OOP</tspan></text>
+    <text class="ln" x="330" y="318" style="animation-delay:3.3s"><tspan class="k">Contact</tspan><tspan x="440" class="g">denis.boshnjaku@kreatx.com</tspan></text>
+    <text class="ln" x="330" y="340" style="animation-delay:3.45s"><tspan class="k">Coffee</tspan></text>
+  </g>
+
+  <!-- coffee progress bar -->
+  <g class="ln" style="animation-delay:3.45s">
+    <rect x="440" y="328" width="200" height="14" rx="7" fill="#21262d"/>
+    <rect class="bar" x="440" y="328" width="176" height="14" rx="7" fill="url(#neon)"/>
+    <text class="m dim" x="652" y="340" font-size="13">88% · refilling…</text>
+  </g>
+
+  <!-- color blocks -->
+  <g class="ln" style="animation-delay:3.7s">
+    <rect x="330" y="360" width="28" height="16" fill="#30363d"/>
+    <rect x="358" y="360" width="28" height="16" fill="#ff5f57"/>
+    <rect x="386" y="360" width="28" height="16" fill="#3fb950"/>
+    <rect x="414" y="360" width="28" height="16" fill="#e3b341"/>
+    <rect x="442" y="360" width="28" height="16" fill="#36bcf7"/>
+    <rect x="470" y="360" width="28" height="16" fill="#a371f7"/>
+    <rect x="498" y="360" width="28" height="16" fill="#ff5fa2"/>
+    <rect x="526" y="360" width="28" height="16" fill="#c9d1d9"/>
+  </g>
+
+  <!-- next prompt -->
+  <g class="ln" style="animation-delay:4.2s">
+    <text class="m" x="24" y="416" xml:space="preserve"><tspan class="g">denis@kreatx</tspan><tspan class="v">:</tspan><tspan class="k">~</tspan><tspan class="v">$ </tspan><tspan class="dim">git commit -m "ship it 🚀"</tspan></text>
+    <rect class="cur" x="436" y="402" width="9" height="18" fill="#36bcf7"/>
+  </g>
+</svg>
