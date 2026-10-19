@@ -1,119 +1,129 @@
+<!-- ============================================================
+     GitHub Profile README — Denis Boshnjaku
+     Replace every "DenisBoshnjaku" below with your exact GitHub
+     username (case-sensitive) so the stats cards load correctly.
+     ============================================================ -->
 
-<div align="center">
+<h1 align="center">Hi 👋, I'm Denis Boshnjaku</h1>
 
-# Hey, I'm Denis! 👋
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Developer;React+%E2%80%A2+Java+%E2%80%A2+.NET+%E2%80%A2+PHP;Building+clean%2C+scalable+web+apps;Always+learning+something+new+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 
-### Software Developer | Full-Stack Development | Tech Enthusiast
-
-Building applications, solving problems, and constantly learning.
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/denisboshnjaku7)
-
-</div>
-
----
-
-### 👨‍💻 About Me
-
-- 💻 Passionate about building full-stack applications
-- 🌱 Currently exploring **.NET, C#, and software architecture**
-- 🚀 Experienced with the **MERN stack**
-- 🐍 Working with **Python** for data analysis and automation
-- 🎯 Interested in scalable applications and clean code
-- 🤝 Open to collaborating on interesting projects
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/></a>
+  <img src="https://komarev.com/ghpvc/?username=DenisBoshnjaku&label=Profile%20views&color=36BCF7&style=for-the-badge" alt="Profile views"/>
+</p>
 
 ---
 
-### 🛠️ Tech Stack
+## 🧑‍💻 About Me
 
-**Languages**
+```java
+public class Denis {
+    String name      = "Denis Boshnjaku";
+    String role      = "Full-Stack Developer";
+    String[] frontend = { "React", "JavaScript", "TypeScript", "HTML", "CSS" };
+    String[] backend  = { "Java / Spring Boot", "C# / .NET", "PHP / Laravel" };
+    String[] databases = { "MySQL", "PostgreSQL", "SQL Server" };
+    String currentFocus = "Building scalable full-stack applications";
+    String funFact   = "I speak four backend languages and still debug with console.log 😄";
+}
+```
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-**Databases & Tools**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+- 🔭 I'm currently working on **full-stack web applications** with React front ends and Java / .NET / PHP back ends
+- 🌱 I'm currently learning **cloud deployment, Docker and system design**
+- 👯 I'm looking to collaborate on **open-source and web projects**
+- 💬 Ask me about **React, Spring Boot, ASP.NET Core, Laravel, REST APIs**
+- 📫 How to reach me: **your.email@example.com**
+- ⚡ Fun fact: I enjoy turning messy requirements into clean, working code
 
 ---
 
-### 🚀 Featured Projects
+## 🛠️ Tech Stack
 
-#### 💰 Expense Tracker
-A full-stack personal finance management application.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind,bootstrap&perline=7" alt="Frontend" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=java,spring,cs,dotnet,php,laravel,nodejs&perline=7" alt="Backend" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,postman&perline=7" alt="Databases & Tools" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=idea,visualstudio,vscode,linux,azure,maven,figma&perline=7" alt="IDEs & Platforms" />
+</p>
 
-- Multi-account transaction management
-- Budgets, savings goals, and recurring transactions
-- Interactive calendar and AI chatbot integration
+<details>
+<summary><b>📋 Detailed skills (click to expand)</b></summary>
+<br/>
 
-**Tech:** React, Node.js, Express, MongoDB
+| Area | Technologies |
+|------|--------------|
+| **Frontend** | React, Redux, React Router, Hooks, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind, Bootstrap |
+| **Java** | Java 17+, Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Hibernate, Maven |
+| **.NET** | C#, ASP.NET Core Web API, MVC, Entity Framework Core, LINQ |
+| **PHP** | PHP 8, Laravel, Composer, Blade, Eloquent ORM |
+| **Databases** | MySQL, PostgreSQL, SQL Server, MongoDB |
+| **Tools** | Git, GitHub, Docker, Postman, IntelliJ IDEA, Visual Studio, VS Code |
+| **Concepts** | REST APIs, OOP, MVC, Clean Architecture, Authentication (JWT), Unit Testing |
 
-#### ⚽ OddsLab
-A full-stack sports and gaming platform.
-
-- Role-based access control
-- Admin dashboard and balance management
-- Football, MMA, F1, and casino modules
-
-**Tech:** MERN Stack
-
-#### 🚗 Car Maintenance Report
-A web application for managing vehicle maintenance.
-
-**Tech:** MERN Stack
-
-#### 🎮 3D FPS Game
-A browser-based multiplayer-style FPS game prototype.
-
-- Three.js 3D environments
-- AI-controlled bots
-- Weapon mechanics and team-based gameplay
-
-**Tech:** JavaScript, Three.js
+</details>
 
 ---
 
-### 📊 GitHub Statistics
+## 🚀 Featured Projects
 
-<div align="center">
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🛒 [**Project One**](https://github.com/DenisBoshnjaku/project-one) | Full-stack e-commerce app with cart, auth and admin dashboard | React · Spring Boot · MySQL |
+| 📊 [**Project Two**](https://github.com/DenisBoshnjaku/project-two) | REST API for task / project management with JWT auth | ASP.NET Core · EF Core · SQL Server |
+| 📝 [**Project Three**](https://github.com/DenisBoshnjaku/project-three) | Content management / blog platform | PHP · Laravel · MySQL |
+| 🌐 [**Project Four**](https://github.com/DenisBoshnjaku/project-four) | Responsive portfolio website | React · Tailwind CSS |
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=denisboshnjaku7&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=denisboshnjaku7&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-### 📈 Contribution Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=denisboshnjaku7&theme=tokyo-night&hide_border=true)
+> 💡 Replace these with your real repos — or pin them on your profile.
 
 ---
 
-<div align="center">
+## 📊 GitHub Stats
 
-### 💬 Let's Connect
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DenisBoshnjaku&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DenisBoshnjaku&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
 
-Always interested in learning, collaborating, and building something new.
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=DenisBoshnjaku&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
-⭐ Thanks for visiting my profile!
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DenisBoshnjaku&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
+</p>
 
-</div>
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DenisBoshnjaku&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="Trophies" />
+</p>
+
+---
+
+## 💭 Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+</p>
+
+---
+
+<p align="center">
+  <i>⭐ Thanks for visiting! Feel free to explore my repositories and reach out. ⭐</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:7B61FF&height=100&section=footer" alt="footer" width="100%"/>
+</p>
